@@ -1,63 +1,58 @@
 * {
-  margin: 0%;
+  margin: 0;
   padding: 0%;
-}
-
-.heading {
-  text-align: center;
-  padding-top: 1rem;
-  background-color: pink;
-  text-decoration: underline double black;
+  box-sizing: border-box;
 }
 
 .container {
-  width: 100%;
-  height: 100vh;
-  padding: 1rem;
-  background-color: pink;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  height: 100vh;
 }
 
-.input-items {
-  width: auto;
+h1 {
+  font-size: 3rem;
 }
 
-.list-items {
-  width: 800px;
-  height: auto;
+.inp {
+  margin: 2.5rem 0 2rem 0;
 }
 
-div {
-  height: auto;
-  width: auto;
-}
-
-.list {
-  width: 800px;
-  height: 25px;
-  border: 1px solid black;
-  border-radius: 12px;
-  /* box-sizing: border-box; */
-  padding-left: 9px;
-  background-color: rgb(226, 223, 223);
+.input-sex {
+  width: 30rem;
+  height: 2rem;
+  border: 2px solid black;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  background-color: #f0f0f0;
 }
 
 .add {
-  margin-left: 1rem;
-  width: 5rem;
-  height: 1.7rem;
-  border-radius: 0.75rem;
-  background-color: rgb(65, 187, 65);
+  width: 3.5rem;
+  height: 2rem;
+  border: 2px solid black;
+  border-radius: 1rem;
+  background-color: rgb(61, 231, 61);
+}
+
+.task-hold {
+  padding-left: 1rem;
+  margin-top: 2rem;
+  width: 30rem;
+  background-color: #fff;
+  /* box-shadow: 1px 8px black; */
+  border: 1px solid grey;
 }
 
 .red {
-  margin-left: 1rem;
-  width: 5rem;
-  height: 1.7rem;
-  border-radius: 0.75rem;
-  background-color: rgb(255, 0, 0);
-  color: #fff;
+  width: 3.5rem;
+  height: 2rem;
+  border: 2px solid black;
+  border-radius: 1rem;
+  background-color: rgb(219, 40, 40);
 }
+
